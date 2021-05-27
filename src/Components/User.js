@@ -16,8 +16,7 @@ export default function User(){
  
      return(
           <div>
-               <Clock2 />
-             <h1>{<Clock name="Shaheb Ali"/>}</h1>
+               
             <h2>Functional Component: {newDate.toLocaleTimeString()}</h2>
           </div>
      )
