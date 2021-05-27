@@ -11,7 +11,8 @@ export default class List_key extends Component {
      listHandler(e){
           console.log(e.target.lastChild.data)
           let itemClicked = e.target.lastChild.data ? window.confirm("You clicked on '"+e.target.innerText + "'") : "";
-          let a= itemClicked ? alert("Thanks You chose -" + e.target.innerText) : "";
+               
+          let selectedItem = itemClicked ? alert("Thanks You chose -" + e.target.innerText) : "";
      }
      maplist(){
          this.listEl =  this.listarr.map((list) =>{

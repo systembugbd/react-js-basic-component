@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import Clock, {Clock2} from './Clock'
+
 
 
 

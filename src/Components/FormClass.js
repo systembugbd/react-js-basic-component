@@ -37,7 +37,7 @@ export default class FormClass extends Component {
     return (
       <div>
         <fieldset>
-          <legend>Login Form</legend>
+          <legend>Login Form Class Component</legend>
           <form onSubmit={this.handelOnSubmit}>
             <div>
               <label htmlFor="email">
