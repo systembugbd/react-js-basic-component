@@ -7,12 +7,15 @@ export default function IncrementWithCustomeHook() {
 
      React.useEffect(() =>{
           document.title= `You Cliked ${orderBook.orderCount.count} times`
-     },[orderBook.orderCount.count])
+     }, [orderBook.orderCount.count])
+
 
      return (
           <div>
                <button onClick={orderBook.chnageOrderCountMinus}>Click Me to Minus</button>
-               <span>You clicked {orderBook.orderCount.count} Items</span>
+ 
+               <span>You added {orderBook.orderCount.count} Items</span>
+
                <button onClick={orderBook.changeOrderCountPlus}>Click Me to Plus</button>
           </div>
      )
