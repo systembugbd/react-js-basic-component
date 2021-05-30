@@ -12,7 +12,7 @@ export default function IncrementWithCustomeHook() {
      return (
           <div>
                <button onClick={orderBook.chnageOrderCountMinus}>Click Me to Minus</button>
-               <span>{orderBook.orderCount.count}</span>
+               <span>You clicked {orderBook.orderCount.count} Items</span>
                <button onClick={orderBook.changeOrderCountPlus}>Click Me to Plus</button>
           </div>
      )
