@@ -37,7 +37,7 @@ function Pizza(props){
      return (
           <ul>
                <li>
-                    {props.size} - {props.price}
+                    {props.size} - {props.price} - Child to Parent Data passing...
                     <button onClick={handelTrigger}>Click To Change {props.size}</button>
                </li>
           </ul>

@@ -8,6 +8,7 @@ import FormFn from './Components/FormFn'
 import IncrementWithCustomeHook from './Components/IncrementWithCustomeHook'
 import ParentToChild from './App/ParentToChild'
 import ChildToParent from './App/ChildToParent'
+import PropsDrailling from './App/PropsDrailling'
 
 
 ReactDOM.render(
@@ -20,6 +21,7 @@ ReactDOM.render(
     <IncrementWithCustomeHook />
     <ParentToChild />
     <ChildToParent />
+    <PropsDrailling />
   </React.StrictMode>,
   document.getElementById('root')
 )

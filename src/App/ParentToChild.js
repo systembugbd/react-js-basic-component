@@ -33,7 +33,7 @@ function Pizza(props){
      return(
           <ul>
                <li onClick={props.onClick}>
-                    {props.size.trim()} - {props.price.trim()}
+                    {props.size.trim()} - {props.price.trim()} - Parent To Child Data passing
                </li>
           </ul>
      )
