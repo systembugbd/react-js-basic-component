@@ -9,6 +9,7 @@ import IncrementWithCustomeHook from './Components/IncrementWithCustomeHook'
 import ParentToChild from './App/ParentToChild'
 import ChildToParent from './App/ChildToParent'
 import PropsDrailling from './App/PropsDrailling'
+import DisconaryOrder from './App/DisconaryOrder'
 
 
 ReactDOM.render(
@@ -22,6 +23,7 @@ ReactDOM.render(
     <ParentToChild />
     <ChildToParent />
     <PropsDrailling />
+    <DisconaryOrder />
   </React.StrictMode>,
   document.getElementById('root')
 )
