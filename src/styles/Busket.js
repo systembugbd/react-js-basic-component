@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './Busket.module.css'
+import style from './Busket.module.scss'
 
 export default function Busket() {
 
@@ -26,7 +26,7 @@ export default function Busket() {
 
      return (
           <div className={style.app}>
-               <h2>Component Styling with Various type of Style Component</h2>
+               <h2>Component Styling with Various type of Style Method</h2>
                     <ul className={style["unordered-list"]}>
                          <li className={style.item}>Shaheb
                               <button className={style.btn} onClick={ likeHandler }>Like {countLike}</button>

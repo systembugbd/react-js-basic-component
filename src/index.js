@@ -10,11 +10,16 @@ import ParentToChild from './App/ParentToChild'
 import ChildToParent from './App/ChildToParent'
 import PropsDrailling from './App/PropsDrailling'
 import DisconaryOrder from './App/DisconaryOrder'
-import Busket from './App/styles/Busket'
+import Busket from './styles/Busket'
+import MyStyleComponents from './styles/MyStyleComponents'
+import BootStrapTheme from './styles/BootStrapTheme'
 
+
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 ReactDOM.render(
   <React.StrictMode>
+    <MyStyleComponents />
     <Rendering/>
     <FormFn />
     <FormClass />
@@ -26,6 +31,7 @@ ReactDOM.render(
     <PropsDrailling />
     <DisconaryOrder />
     <Busket/>
+    <BootStrapTheme />
   </React.StrictMode>,
   document.getElementById('root')
 )
