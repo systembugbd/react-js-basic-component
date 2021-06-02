@@ -10,6 +10,7 @@ import ParentToChild from './App/ParentToChild'
 import ChildToParent from './App/ChildToParent'
 import PropsDrailling from './App/PropsDrailling'
 import DisconaryOrder from './App/DisconaryOrder'
+import Busket from './App/styles/Busket'
 
 
 ReactDOM.render(
@@ -24,6 +25,7 @@ ReactDOM.render(
     <ChildToParent />
     <PropsDrailling />
     <DisconaryOrder />
+    <Busket/>
   </React.StrictMode>,
   document.getElementById('root')
 )
